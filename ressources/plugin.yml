@@ -1,0 +1,27 @@
+name: CiteDesElements
+version: 1.0
+author: BebeDlaStreat
+main: fr.bebedlastreat.astiria.Astiria
+commands:
+  banque:
+    description: définir la banque
+    permission: bank.edit
+  solde:
+    description: voire la banque
+  setmiddle:
+    description: definir le centre de la map
+    permission: middle.edit
+  capitale:
+    description: donner un objet permetant de definir la capitale
+    permission: capital.edit
+  diamond:
+    description: changer le nombre d emeraude de un ou plusieurs joueurs
+    permission: emerald.edit
+  selection:
+    description: creer et supprimer des selections
+    permission: selection.edit
+    aliases:
+      - selections
+  house:
+    description: supprimer une maison
+    permission: selection.edit
